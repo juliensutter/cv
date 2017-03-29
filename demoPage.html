@@ -57,7 +57,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				sectionsColor: ['#6591BC', '#FFA980', '#60C19F', '#FFCB80', '#ccddff'],
 				anchors: ['accueil', 'experience', 'formation', 'competences', 'lastPage'],
 				menu: '#menu',
 				scrollingSpeed: 1000
@@ -76,20 +76,48 @@
 	<li data-menuanchor="competences"><a href="#competences">Compétences</a></li>
 </ul>
 
-
+<!-- EXPERIENCE -->
 <div id="fullpage">
 	<div class="section " id="section0">
-		<h1>fullPage.js</h1>
+		<img src="img/customer.png" class ="sectionIcon" alt="Customer" />
+		<h1>SUTTER Julien - Ingénieur développement</h1>
 		 <input type="hidden" name="id" value="1" />
-		<p>Create Beautiful Fullscreen Scrolling Websites</p>
-		<img src="imgs/fullPage.png" alt="fullPage" />
+		<h2>Expérience : 4ans</h2>
 	</div>
 	<div class="section active" id="section1">
 		<img src="img/travel.png" class ="sectionIcon" alt="Graduate" />
+
+		<!-- SNCF -->
 		<div class="slide">
 			<div class="intro">
+				<img src="img/logo-sncf.jpg" alt="Logo SNCF" class="logo" />
+				<h1>SNCF – PROJET MDM SIRH</h1>
+				<p>Mai 2014 - Mars 2015</p>
+				<br/>
+				<p class="experienceContent">
+					Paramétrage et développement des nouveaux objets métiers au sein du progiciel EBX5.
+				</p>
+				<br/>
+				<p class="experienceContent">
+					<ol class="rectangle-list">
+					    <li><span>Rédaction de SFD depuis les SFG fournit par la MOA</span></li>
+					    <li><span>Administrateur technique de la solution pour la SNCF</span></li>
+					    <li><span>Référent technique sur le produit EBX5</span></li>
+					</ol>
+				</p>
+				<br/>
+				<p class="experienceEnv">
+					ENVIRONNEMENT : MDM EBX5, JEE, XSD, Oracle.
+				</p>
+			</div>
+		</div>
+
+		<!-- ORANGE -->
+		<div class="slide">
+			<div class="intro">
+				<img src="img/logo-orange.png" alt="Logo Orange" class="logo" />
 				<h1>Orange</h1>
-				<h2>Septembre 2012 - Avril 2014</h2>
+				<p>Septembre 2012 - Avril 2014</p>
 				<br/>
 				<p class="experienceContent">Application de suivi de commande qui permet le suivi de la construction de ligne, de l’activation des services internet et de la livraison du matériel pour
 					une commande donnée.
@@ -102,16 +130,14 @@
 				<p class="experienceContent">
 					Grâce à l’IHM conseiller de SuiviCommande, le conseiller peut également renseigner le client sur l’avancement de sa commande (état d’avancement, date de livraison prévue, …).
 				</p>
+				<br/>
+				<p class="experienceEnv">
+					ENVIRONNEMENT : Java J2EE, Oracle, PLSQL, SCRUM, Wicket, Ajax, Soap
+				</p>
 			</div>
 
 		</div>
-		<div class="slide">
-			<div class="intro">
-				<img src="imgs/1.png" alt="simple" />
-				<h1>Simple</h1>
-				<p>Easy to use. Configurable and customizable.</p>
-			</div>
-		</div>
+
 		<div class="slide">
 			<div class="intro">
 				<img src="imgs/2.png" alt="Cool" />
@@ -119,6 +145,7 @@
 				<p>It just looks cool. Impress everybody with a simple and modern web design!</p>
 			</div>
 		</div>
+
 		<div class="slide">
 			<div class="intro">
 				<img src="imgs/3.png" alt="Compatible" />
@@ -127,14 +154,27 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- FORMATION -->
 	<div class="section" id="section2">
 		<img src="img/graduate.png" class ="sectionIcon" alt="Graduate" />
-		<div class="intro">
-			<h1>Example</h1>
-			<p>HTML markup example to define 4 sections.</p>
-			<img src="imgs/example2.png" alt="example" />
+		<div class="slide">
+			<div class="intro">
+				<h1>Diplôme d’ingénieur CPE Lyon</h1>
+				<p>Filière Informatique & Réseaux de communication en alternance</p>
+				<p>Spécialisation Informatique et Systèmes d’Information</p>
+				<p>2009 - 2012</p>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<h1>DUT Informatique Grenoble IUT 2</h1>
+				<p>2007 - 2009</p>
+			</div>
 		</div>
 	</div>
+
+	<!-- COMPETENCES -->
 	<div class="section" id="section3">
 		<div class="intro">
 			<h1>Working On Tablets</h1>
