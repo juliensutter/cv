@@ -28,8 +28,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#6591BC', '#FFA980', '#60C19F', '#FFCB80', '#ccddff'],
-				anchors: ['accueil', 'experience', 'formation', 'competences', 'lastPage'],
+				sectionsColor: ['#6591BC', '#FFA980', '#60C19F', '#FFCB80', '#A7C763'],
+				anchors: ['accueil', 'experience', 'formation', 'competences', 'loisirs'],
 				menu: '#menu',
 				scrollingSpeed: 1000
 			});
@@ -45,17 +45,22 @@
 	<li data-menuanchor="experience"><a href="#experience">Expériences</a></li>
 	<li data-menuanchor="formation"><a href="#formation">Formation</a></li>
 	<li data-menuanchor="competences"><a href="#competences">Compétences</a></li>
+	<li data-menuanchor="loisirs"><a href="#loisirs">Loisirs</a></li>
 </ul>
 
-<!-- EXPERIENCE -->
+<!-- PRESENTATION -->
 <div id="fullpage">
 	<div class="section " id="section0">
 		<img src="img/customer.png" class ="sectionIcon" alt="Customer" />
 		<h1>SUTTER Julien</h1>
 		<h1>Ingénieur Etudes & Développement</h1>
 		 <input type="hidden" name="id" value="1" />
-		<h2>Expérience : 4ans</h2>
+		 <br />
+		 <br />
+		<p>Expérience : 4ans</p>
 	</div>
+
+	<!-- EXPERIENCE -->
 	<div class="section active" id="section1">
 		<img src="img/travel.png" class ="sectionIcon" alt="Graduate" />
 
@@ -148,6 +153,7 @@
 
 	<!-- COMPETENCES -->
 	<div class="section" id="section3">
+		<img src="img/clipboard.png" class ="sectionIcon" alt="Competences" />
 		<div class="slide">
 			<div class="intro">
 				<h1>Langages et environnements de développement</h1>
@@ -190,6 +196,19 @@
 		</div>
 
 	</div>
+
+	<div class="section" id="section4">
+		<img src="img/plane.png" class ="sectionIcon" alt="Loisirs" />
+		<div class="slide">
+			<div class="intro">
+				<ol class="rectangle-list">
+						<li><span>Sport : tennis, natation, squash, badminton, padel, course à pied, football</span></li>
+						<li><span>Photographie <a href="https://www.flickr.com/photos/98898797@N03/" target="_blank"><img src="img/flickr.png" class="iconFlickr" alt="Flickr"/></a> </span></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 </body>

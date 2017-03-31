@@ -233,18 +233,6 @@ p{
 
 /* Sections
  * --------------------------------------- */
-#section0 img,
-#section1 img{
-  margin: 20px 0 0 0;
-}
-#section2 img{
-  margin: 20px 0 0 52px;
-}
-#section3 img{
-  bottom: 0px;
-  position: absolute;
-  margin-left: -420px;
-}
 .intro p{
   width: 50%;
   margin: 0 auto;
@@ -260,12 +248,16 @@ p{
 .section .sectionIcon {
   position: absolute;
   right: 1em;
-  top: -0.5em;
+  top: 1em;
 }
 
 .experienceContent {
   text-align: justify;
   padding: 0.5em;
+}
+
+.iconFlickr {
+  width: 20px;
 }
 
 .experienceEnv {
@@ -282,10 +274,10 @@ ol {
     counter-reset: li; /* Initiate a counter */
     list-style: none; /* Remove default numbering */
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
-    font: 15px 'trebuchet MS', 'lucida sans';
+    font: 20px 'trebuchet MS', 'lucida sans';
     padding: 0;
     margin-bottom: 4em;
-    width: 40%;
+    width: 60%;
     margin: auto;
 }
 
