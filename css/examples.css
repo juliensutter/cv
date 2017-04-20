@@ -322,3 +322,11 @@ ol ol {
     margin-top: -.5em;
     transition: all .3s ease-out;
 }
+
+.flickrRose {
+  color: #FF0084;
+}
+
+.flickrBleu {
+  color: #75A1E3;
+}
